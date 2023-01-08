@@ -8,9 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TodoStudyApplication {
 
 	public static void main(String[] args) {
-
-		TodoService service = new TodoService();
-
 		SpringApplication.run(TodoStudyApplication.class, args);
 	}
 
